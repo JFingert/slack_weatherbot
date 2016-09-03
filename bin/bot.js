@@ -8,7 +8,7 @@ var apiToken = process.env.apiToken;
 var forecastApiKey = process.env.forecastApiKey;
 var googleApiKey = process.env.googleApiKey;
 var weatherBotUserName = process.env.weatherBotUserName;
-var config = require('../config');
+var config = require('../config') || {};
 
 var weatherBot = new WeatherBot({
     token: config.apiToken || apiToken,
