@@ -1,24 +1,19 @@
-# norrisbot
+# WeatherBot
 
-[![Build Status](https://travis-ci.org/lmammino/norrisbot.svg?branch=v1.0.0)](https://travis-ci.org/lmammino/norrisbot) [![npm version](https://badge.fury.io/js/norrisbot.svg)](http://badge.fury.io/js/norrisbot)
+example config.json
+{
+	"apiToken": "",
+	"weatherBotUserName": "",
+	"forecastApiKey": "",
+	"googleApiKey": ""
+}
 
-[![NPM](https://nodei.co/npm/norrisbot.png)](https://nodei.co/npm/norrisbot/)
-
-The NorrisBot is a Slack bot that kicks asses, roundhouse-kicks to be precise... It's super-powered with Chuck Norris jockes and it aims to make your Slack channel even more "slacker" and enjoyable.
-
-![Chuck Norris face](icon.jpg)
-
-NorrisBot is loaded with guns and jokes about Chuck Norris and it will tell a random joke every time that someone says “Chuck Norris” in the chatroom.
-
-![The NorrisBot in action](the-norris-bot-in-action.png)
 
 
 ## Installation
 
-As simple as installing any other global node package. Be sure to have npm and node (`>= 0.10` version, or io.js `>= 1.0`) installed and launch:
-
 ```bash
-$ npm install -g norrisbot
+$ npm install -g weatherbot
 ```
 
 

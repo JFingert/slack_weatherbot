@@ -1,31 +1,29 @@
 {
-  "name": "norrisbot",
+  "name": "weatherbot",
   "version": "1.0.5",
-  "description": "a Slack bot that kicks asses (roundhouse-kicks to be accurate...)",
+  "description": "a Forecast.io Slack bot.",
   "keywords": [
     "Slack",
     "bot",
-    "Chuck Norris",
-    "jokes"
+    "Forecast.io",
+    "weather",
+    "WeatherBot"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lmammino/norrisbot"
+    "url": "https://github.com/"
   },
-  "bugs": {
-    "url": "https://github.com/lmammino/norrisbot/issues"
-  },
-  "main": "lib/norrisbot.js",
+  "main": "lib/weatherbot.js",
   "bin": {
-    "norrisbot": "bin/bot.js"
+    "weatherbot": "bin/bot.js"
   },
   "scripts": {
     "start": "node bin/bot.js",
-    "test": "node_modules/.bin/xo data/jokesFetcher.js bin/bot.js lib/norrisbot.js"
+    "test": "node_modules/.bin/xo bin/bot.js lib/weatherbot.js"
   },
   "author": {
-    "name": "Luciano Mammino",
-    "email": "lucianomammino@gmail.com"
+    "name": "Joshua Fingert",
+    "email": "joshuafingert@gmail.com"
   },
   "license": "MIT",
   "engines": {
@@ -34,9 +32,8 @@
   "dependencies": {
     "async": "^1.4.1",
     "progress": "^1.1.8",
-    "request": "^2.60.0",
-    "slackbots": "^0.3.0",
-    "sqlite3": "^3.0.10"
+    "request": "^2.74.0",
+    "slackbots": "^0.3.0"
   },
   "devDependencies": {
     "xo": "^0.5.2"

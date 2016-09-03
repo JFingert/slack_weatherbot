@@ -37,3 +37,6 @@ token.js
 
 #do not commit editor config files
 .idea
+
+#do not include config
+config.json
