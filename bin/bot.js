@@ -4,13 +4,16 @@
 
 var WeatherBot = require('../lib/weatherbot');
 
-var config = require('../config');
+var apiToken = process.env.apiToken;
+var forecastApiKey = process.env.forecastApiKey;
+var googleApiKey = process.env.googleApiKey;
+var weatherBotUserName = process.env.weatherBotUserName;
 
 var weatherBot = new WeatherBot({
-    token: config.apiToken,
-    botName: config.weatherBotUserName,
-    forecastApiKey: config.forecastApiKey,
-    googleApiKey: config.googleApiKey
+    token: apiToken,
+    botName: weatherBotUserName,
+    forecastApiKey: forecastApiKey,
+    googleApiKey: googleApiKey
 });
 
 weatherBot.run();
